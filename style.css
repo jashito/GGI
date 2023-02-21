@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list
+    -style: none;
+}
+
+header nav ul li {
+display: inline-block;
+margin-left: 20px;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+section {
+padding: 80px 0;
+}
+
+section h2 {
+font-size: 36px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.proyecto {
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 40px;
+}
+
+.proyecto h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.proyecto p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.proyecto a {
+background-color: #222;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+}
+
+.sobre-mi img {
+float: left;
+margin-right: 40px;
+}
+
+.sobre-mi p {
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+max-width: 600px;
+margin: 0 auto;
+}
+
+label {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+input, textarea {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+button {
+background-color: #222;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+footer {
+background-color: #ccc;
+color: #222;
+padding: 20px 0;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+header h1 {
+font-size: 24px;
+margin: 0;
+text-align: center;
+}
+}
+
+header nav ul li {
+display: inline-block;
+margin-left: 20px;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+section {
+padding: 80px 0;
+}
+
+section h2 {
+font-size: 36px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.proyecto {
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 40px;
+}
+
+.proyecto h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.proyecto p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.proyecto a {
+background-color: #222;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+}
+
+.sobre-mi img {
+float: left;
+margin-right: 40px;
+}
+
+.sobre-mi p {
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+max-width: 600px;
+margin: 0 auto;
+}
+
+label {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+input, textarea {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+button {
+background-color: #222;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+footer {
+background-color: #ccc;
+color: #222;
+padding: 20px 0;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+header h1 {
+font-size: 24px;
+margin: 0;
+text-align: center;
+}
